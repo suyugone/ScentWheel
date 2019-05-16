@@ -60,4 +60,4 @@ json-server --watch fragranceDB.json --port 3002
 ```
 node index.js
 ```
-Now you will be ready to run this project! Have fun 😆
+# Now you will be ready to run this project! Have fun 😆
