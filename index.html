@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="UTF-8">        
+        <title>ScentWheel</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Lora" rel="stylesheet">
+
+        <style>
+            /*body { width:100%; height:100%; overflow:hidden; }*/
+            /*node.js include css file, it cannot be executed*/
+            body{
+                background-color: #FBF1FE;
+            }
+
+           .wheel-content {
+                margin-top: 60px;
+                margin-left: 10%;
+                margin-right: 10%;
+                border: 1px solid black;
+                background-color: white;
+                height: 500px;
+                text-align: center;
+            }
+
+            .rotate {
+                position: relative;
+                text-align: center;
+                height: 400px;
+                overflow: hidden;
+                left:20%;
+            }
+
+            .mask {
+                position: absolute;
+                z-index: 1;
+                top: -650px;
+            }
+
+            #img-wheel {
+                position: absolute;
+                z-index: 0;
+                top: -650px;
+            }
+
+            #mask-img {
+                width: 100%;
+            }
+
+            #img {
+                width: 100%;
+            }
+
+            .buttonArea {
+                height: 420px;
+                width: 100%;
+                top: 530px;
+                /*background: red;*/
+                position: absolute;
+                z-index: 2;
+                opacity: 0.5;
+                text-align: center;
+            }
+
+            .buttons {
+               /* background-color: blue;*/
+                opacity: 0.5;
+                height: 420px;
+                width: 50%;
+                float: left;
+            }
+
+            .button-right {
+                position: relative;
+                right: -180px;
+                top:100px;
+            }
+
+            .button-left {
+                position: relative;
+                left: -180px;
+                 top:100px;
+            }
+
+            #sweep {
+                background-color: red;
+                position: absolute;
+                top:1000px;
+            }
+
+            h1 {
+                font-size:  80px;
+                font-family: 'Lobster', cursive;
+            }
+
+            p {
+                font-size: 20px;
+                font-family: 'Lora', serif;
+            }
+
+            p.tight {word-spacing: 5px;}
+
+            #c { 
+                margin:0; 
+                padding:0; 
+
+                position: absolute;
+                z-index: -1;
+                top: 0px;
+            }
+
+            #text {
+                position: relative;
+                top:50px;
+                width:1000px;
+                left:13%;
+                text-align: center;
+            } 
+
+        </style>
+    </head>
+    
+    <script type="text/javascript" src='https://requirejs.org/docs/release/2.3.5/minified/require.js'></script>
+
+    <body>
+
+        <!------------------- Wheel Content ----------------------->
+
+        <div class="wheel-content">
+            <div id="text">
+                <h1 id="perfume-title">Aromatic</h1>
+                <p id="perfume-details">If clean, uncomplicated and fresh describes you … if the blend of lavender and other herbs such as rosemary or basil teamed with the warmth of wood sums up your favourite smells, then you’ll love fragrances from the universally popular Aromatic Fougère family.</p> 
+            </div>
+        </div>
+
+        <!------------------- Wheel Rotation ----------------------->
+
+        <div class = rotate>
+            <div class="mask">
+                <img id="mask-img" src="img/mask.png" >
+            </div>
+
+            <div id="img-wheel" data-rotate="0" data-count="8" style="transform:rotate(0deg);">
+                <img id="img" src="img/frangranceWheel.png">
+            </div> 
+        </div>    
+        <div class="buttonArea">
+            <div class="buttons" data-direction="left">
+                <img class="button-left" src="img/left.png">
+            </div>
+            <div class="buttons" data-direction="right">
+                <img class="button-right" src="img/right.png">
+            </div>
+        </div>  
+
+        <canvas id="c" width="300" height="150"></canvas>   
+<!--         <div id = sweep onclick="test1()">123</div> -->
+    </body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="module" src="scripts.js"></script>
+<!--     <script type="module" src="module.js"></script> -->
+</html>

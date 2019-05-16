@@ -1,0 +1,74 @@
+{
+	"fragranceInfo":[
+		{
+			"id":1,
+			"familyName":"Floral Oriental",
+			"familyDetails":"Oriental Florals are composed of a Traditional oriental base composed of sweet, powdery elements, accompanied by an exotic floral note such as tiare flower or spicy flowers such as carnation."
+		},
+		{
+			"id":2,
+			"familyName":"Soft Oriental",
+			"familyDetails":"Soft Oriental fragrances are sometimes referred to as semi-oriental fragrances—they tend to be less rich than oriental scents but still possess a warm, ambery character. Hallmarks of this family include an ambery base and a liberal use of warm spices like cinnamon, nutmeg and clove."
+		},
+		{
+			"id":3,
+			"familyName":"Oriental",
+			"familyDetails":"The term amber or orientalis often used to refer to fragrances that prominently feature sweet notes, powdery notes, vanilla, cistus labdanum and animal notes."
+		},
+		{
+			"id":4,
+			"familyName":"Woody Oriental",
+			"familyDetails":"Woody Oriental compositions represent the point halfway between amber and woods. These fragrances tend to be sweet and woody and prominently feature notes like sandalwood and patchouli. "
+		},
+		{
+			"id":5,
+			"familyName":"Woods",
+			"familyDetails":"The Woods family is a relatively new addition, created to accommodate the deluge of modern releases that have a dominant woody character without a chypre base."
+		},
+		{
+			"id":6,
+			"familyName":"Mossy Woods",
+			"familyDetails":"If it is traditional style fragrances with sweet, smooth, sometimes earthy woody and mossy notes that inspire you, then you’ll love fragrances from the Mossy Woods family."
+		},
+		{
+			"id":7,
+			"familyName":"Dry Woods",
+			"familyDetails":"The smokiness of smouldering embers and the unmistakable leathery smell of new shoes … if these scents define your style, then you’ll love fragrances from the Dry Woods family."
+		},
+		{
+			"id":8,
+			"familyName":"Aromatic",
+			"familyDetails":"If clean, uncomplicated and fresh describes you … if the blend of lavender and other herbs such as rosemary or basil teamed with the warmth of wood sums up your favourite smells, then you’ll love fragrances from the universally popular Aromatic Fougère family."
+		},
+		{
+			"id":9,
+			"familyName":"Citrus",
+			"familyDetails":"If it is the smell of zesty, tangy and juicy lemons and mandarins that invigorates and energises you … then you’ll love the fragrances in the Citrus family."
+		},
+		{
+			"id":10,
+			"familyName":"Water",
+			"familyDetails":"The so-called marine or aquatic fragrances owe their existence to a handful of molecules that convey a freshness that has come to be associated with the sea including Calone."
+		},
+		{
+			"id":11,
+			"familyName":"Green",
+			"familyDetails":"Nothing beats the smell of freshly mown lawns, and crushed green leaves, right? If you think so too then you’ll love the fragrances in the Green family."
+		},
+		{
+			"id":12,
+			"familyName":"Fruity",
+			"familyDetails":"Sweet, juicy and edible. Tropical fruits, peaches, pears and orchard fresh summer apples … if these mouth-watering scents excite you, then you’ll love fragrances in the Fruity family."
+		},
+		{
+			"id":13,
+			"familyName":"Floral",
+			"familyDetails":"Can’t walk past a florist shop without slowing down, closing your eyes and taking a deep breath? Roses, jasmine, lily, frangipani ... if these are the scents your dreams are made of, look for fragrances in the Floral family."
+		},
+		{
+			"id":14,
+			"familyName":"Soft Floral",
+			"familyDetails":"Soft, powdery … sweet, musky and creamy. If these nostalgic scents transport you back in time, then you’ll love fragrances from the Soft Floral family."
+		}
+	]
+}
