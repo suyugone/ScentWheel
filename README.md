@@ -60,4 +60,5 @@ json-server --watch fragranceDB.json --port 3002
 ```
 node index.js
 ```
-# Now you will be ready to run this project! Have fun 😆
+### Now you will be ready to run this project! Have fun 😆
+If you have any problem with this document or want to discuss something, feel free to email sygong95@foxmail.com!
