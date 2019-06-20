@@ -5,7 +5,7 @@ ScentWheel
 # Project Introduction
 ScentWheel is a business-oriented installation which aims to improve the offline perfume purchasing experience. Customers can learn about the details of the 14 perfume families by browsing on the web end and smell it through the physical end.
 
-![](https://i.ibb.co/jrPKTLZ/2019-05-16-11-00-53.png) <br>
+![]([img]https://upload.cc/i1/2019/06/20/UO6VYm.png[/img]) <br>
  
 It contains these files: <br>
 |- index.html : Frontend Content <br>
